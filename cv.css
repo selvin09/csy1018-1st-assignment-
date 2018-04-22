@@ -28,7 +28,7 @@ width: 100%;
     width: 60px;
     height: 30px;
     padding-top: 15px;
-    padding-left: 65px;
+    padding-left: 15px;
     padding-bottom: 150px;
     padding-right: 2px;
 }
@@ -144,16 +144,14 @@ a:active{
  	
 
 }
-h2{
-	text-align:center;
-}
+
 
 .person{
 	text-align: center;
 	font-size: 30px;
 	padding-top: 20px;
 	padding-right: 100px;
-	padding-left: 300px;
+	padding-left: 200px;
 	color:white;
 
 }

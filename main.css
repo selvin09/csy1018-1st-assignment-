@@ -23,7 +23,6 @@ html, body{
 	background-size: cover;
 	position: relative;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	margin-bottom: 2px;
 	padding-bottom: 5px;
@@ -32,7 +31,6 @@ html, body{
 .nav{
 	width: 350px;
 	height: auto;
-	display: flex;
 	background-color: #333333;
 	position: absolute;
 	top: 25%;
@@ -104,10 +102,6 @@ a:active{
 	padding-bottom :3px;
 	margin-left: 5px;
 	margin-top:0px;
-	border: 0px;
-	width:400px;
-	 height:300px;
-	   border:0px;
 }
 .d{
 	width: 80%;
@@ -161,18 +155,15 @@ a:active{
 	list-style: none;
 
 }
-.social ul li a:hover{
-	background-color: green;
-}
 .para{
 	font-size: 20px;
-	font-color:white;
+	font-color:black;
 	text-align: left;
-
 	padding-right: 400px;
 	text-decoration: none;
 	margin-left: -750px;
 	margin-top: 35%;
+	display: fixed;
 }
 .person{
 	text-align: center;
@@ -191,23 +182,12 @@ a:active{
 @media screen and (max-width: 600px)
 {
 
+	.nav
+	{
+		flex-direction: column;
+	}
 	.background
 	{
 		flex-direction: column;
-		width: 100%;
-		background-color: black
-	}
-	.para
-	{
-		width: 100%;
-		padding-right: 0px;
-		margin-left: -10px;
-	}
-
-	article {
-		margin-top: 500px;
-	}
-	article h1, p {
-		color: black;
 	}
 }
